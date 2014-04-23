@@ -1,3 +1,3 @@
 Ips::Application.routes.draw do
-  get "ip", :to => "test#index"
+  get "/", :to => "test#index"
 end
